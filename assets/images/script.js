@@ -29,7 +29,6 @@ var upperCaseConfirm = window.confirm("Would you like upper case letters?");
 if (upperCaseConfirm) {
     //add uppcase letter to selected choices array
     selectedChoices += upperCase;
-    console.log(selectedChoices);
 } else {
     window.alert("No upper selected");
     upperCase = "";
@@ -39,7 +38,6 @@ var lowerCaseConfirm = window.confirm("Would you like lower case letters?");
 if (lowerCaseConfirm) {
     //add lowercase letter to selected choices array
     selectedChoices += lowerCase;
-    console.log(selectedChoices);
 } else {
     window.alert("No lower selected");
     lowerCase = "";
@@ -49,7 +47,6 @@ var numbersConfirm = window.confirm("Would you like numbers?");
 if (numbersConfirm) {
     //add numbers to selected choices array
     selectedChoices += numbers;
-    console.log(selectedChoices);
 } else {
     window.alert("No numbers selected");
     numbers = "";
